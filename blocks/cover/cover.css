@@ -1,0 +1,8 @@
+.cover {
+    height: min-content;
+    grid-area: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}

@@ -1,0 +1,10 @@
+.footer__nav-item {
+    display: inline;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__nav-item {
+        display: block;
+        padding-bottom: 32px;
+    }
+}

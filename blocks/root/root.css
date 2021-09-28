@@ -1,0 +1,19 @@
+.root {
+    background-color: #2A2C2F;
+    max-width: 1184px;
+    font-family: "Inter", sans-serif;
+    text-rendering: optimizeLegibility;
+    margin: 0 auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr minmax(320px, 984px) 1fr;
+    grid-template-rows: repeat(7, min-content);
+    grid-template-areas:
+    "header header header"
+    ". lead ."
+    ". intro ."
+    "photo-grid photo-grid photo-grid"
+    ". places ."
+    "cover cover cover"
+    "footer footer footer";
+    justify-content: center;
+}

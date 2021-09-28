@@ -1,0 +1,12 @@
+.intro {
+    max-width: 690px;
+    grid-area: intro;
+    justify-self: flex-start;
+    padding-top: 92px;
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        padding-top: 64px;
+    }
+}

@@ -1,10 +1,9 @@
 .footer__nav-item {
-    display: inline;
+    margin-right: 18px;
 }
 
 @media screen and (max-width: 768px) {
     .footer__nav-item {
-        display: block;
         padding-bottom: 32px;
     }
 }

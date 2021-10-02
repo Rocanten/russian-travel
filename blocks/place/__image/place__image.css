@@ -1,16 +1,16 @@
 .place__image {
     width: 100%;
+    margin: 0;
 }
 
 @media screen and (max-width: 1020px) {
     .place__image {
         font-size: 16px;
-        margin-left: 24px;
     }
 }
 
 @media screen and (max-width: 776px) {
     .place__image {
-        margin: 0;
+
     }
 }

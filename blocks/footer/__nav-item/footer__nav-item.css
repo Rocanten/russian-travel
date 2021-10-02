@@ -6,4 +6,7 @@
     .footer__nav-item {
         padding-bottom: 32px;
     }
+    .footer__nav-item:last-of-type {
+        padding-bottom: 0;
+    }
 }

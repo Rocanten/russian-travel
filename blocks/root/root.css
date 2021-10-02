@@ -1,8 +1,6 @@
 .root {
     background-color: #2A2C2F;
     max-width: 1184px;
-    font-family: "Inter", sans-serif;
-    text-rendering: optimizeLegibility;
     margin: 0 auto 0 auto;
     display: grid;
     grid-template-columns: 1fr minmax(320px, 984px) 1fr;

@@ -5,13 +5,8 @@
     display: flex;
 }
 
-@media screen and (max-width: 1278px) {
-    .footer__links {
-        margin-left: 48px;
-    }
-}
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1020px) {
     .footer__links {
         margin-left: 24px;
     }

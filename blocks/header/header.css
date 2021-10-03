@@ -9,8 +9,29 @@
     padding-top: 28px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
+    .header {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .header {
+        padding-top: 28px;
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .header {
+        padding-top: 28px;
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 500px) {
     .header {
         padding-top: 16px;
+        max-width: 100%;
     }
 }

@@ -11,7 +11,7 @@
     transition: opacity 0.5s;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 720px) {
     .header__lang-link {
         font-size: 18px;
         line-height: 20px;
